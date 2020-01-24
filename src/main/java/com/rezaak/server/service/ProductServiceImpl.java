@@ -35,7 +35,7 @@ public class ProductServiceImpl implements ProductService {
 	}
 	
 	@Override
-	public Long numberOfProdicts() {
+	public Long numberOfProducts() {
 		return productRepository.count();
 	}
 	

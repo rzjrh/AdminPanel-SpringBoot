@@ -12,9 +12,9 @@ public interface ProductService {
 
 	void deleteProduct(Long productId);
 
-	Long numberOfProdicts();
-
 	List<Product> findAllProducts();
+
+	Long numberOfProducts();
 
 
 }
